@@ -3,6 +3,11 @@
 
 int main(){
     int a,b,sum=0;
+    char name[10];
+    printf("What's your name?\n");
+    printf(">");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Rolling dice...\n");
     a = rand()%6+1;
